@@ -4,7 +4,7 @@ Studiju kursa Datormācība (speckurss) elektroniskā klade
 1.git clone https://github.com/JanaNiedrite/RTR108
 2.mv nosk.ko.ievietot RTR108/
 3.cd RTR108
-4../git.upload datums_laiks
+4../git-upload datums_laiks
 ## 2.nodarbības pieraksti 
 1.rinda 
 2.rinda   
