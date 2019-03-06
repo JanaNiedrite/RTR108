@@ -16,6 +16,7 @@ Studiju kursa Datormācība (speckurss) elektroniskā klade
 4.Kāda ir OS sistēma - uname 
 4.1. paplašinātāk -  uname -a
 5.Shell dialekts ar kādu strādā OS - echo %0
+5.chmod - lai nomainītu, to ko var darīt ar failu
 ## 5.nodarbība
 1.Read only variables - ja funkcija ir piešķirts read only, tad tā vērtību nevar mainīt
 2.Unsetting variables - Unsetting or deleting a variable directs the shell to remove the variable from the list of variables that it tracks. Once you unset a variable, you cannot access the stored value in the variable.
@@ -23,3 +24,11 @@ Studiju kursa Datormācība (speckurss) elektroniskā klade
 3.Special Parametrs - allow accessing all the command-line arguments at once. $* and $@ both will act the same unless they are enclosed in double quotes, "".
 4.Exit Status - $?
 5.Defining Array Values + Accesing Array Values - katram masīvam tiek piešķirts indekss, lai tā ievadīto sastāvu varētu atrast pēc indekss, pievienojot kodam echo un masīvu+indeksu, tas tiks izvadīts uz ekrāna
+6.Arithmetic operators - aritmētiskās operācijas shell valodā - jāpieraksta [] un darbībām jābūt ar atstarpēm.
+7.Nesting loop - vienu loop var ielikt citā loop
+8.Infinit loop -  A loop that executes forever without terminating executes for an infinite number of times. For this reason, such loops are called infinite loops.
+9.The break statement - apstādina loop un atastāj/uzrāda vērtības/intervālu, kas ierakstīt koda
+10.The continue statement - var pielietot uzrādot kādu kļūdu programmā, piemēram, ja nepieciešams atrast nepāra skaitli starp pāra skaitļiem.
+11.Substitution - vairākas funkcijas, kas ietver pēc ievadītā satura kādu funkciju, piemēram, "\n" izveido atstarpi.
+12.Command substitution - Command substitution is the mechanism by which the shell performs a given set of commands and then substitutes their output in the place of the commands.
+13.Variable substitution - enables the shell programmer to manipulate the value of a variable based on its state.
